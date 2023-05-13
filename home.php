@@ -105,7 +105,7 @@
     <!-- HOME ABOUT SECTION START -->
     <section class="home-about">
         <div class="image">
-            <img src="images/home-about.jpg" alt="home about">
+            <img src="images/about.jpg" alt="home about">
         </div>
 
         <div class="content">
