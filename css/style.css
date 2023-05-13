@@ -46,6 +46,20 @@ section{
     padding: 5rem 10%;
 }
 
+.btn{
+    display: inline-block;
+    background: var(--black);
+    margin-top: 1rem;
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--main-color);
+}
+
 .header{
     position: sticky;
     top: 0;
@@ -84,6 +98,81 @@ section{
 }
 /* HEADER SECTION END */
 
+/* HOME SECTION START */
+.home{
+    padding: 0;
+}
+
+.home .slide{
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 60rem;
+}
+
+.home .slide .content{
+    width: 85rem;
+}
+
+.home .slide .content span{
+    display: block;
+    font-size: 2.2rem;
+    color: var(--light-bg);
+    padding-bottom: 1rem;
+}
+
+.home .slide .content h3{
+    font-size: 6vw;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: var(--text-shadow);
+    padding: 1rem 0;
+}
+
+
+/* HOME SECTION END */
+
+/* SERVICES SECTION START */
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+}
+
+.services .box-container .box{
+    padding: 3rem 2rem;
+    text-align: center;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.services .box-container .box:hover{
+    background: var(--light-black);
+}
+
+.services .box-container .box img{
+    height: 7rem;
+}
+
+.services .box-container .box h3{
+    color: var(--black);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+.heading-title{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+/* SERVICES SECTION END */
+
 /* FOOTER SECTION START */
 .footer{
     background-color: var(--black);
@@ -118,8 +207,18 @@ section{
     padding-right: 2rem;
 }
 
+.footer .credit{
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    border-top: 0.1rem solid var(--light-white);
+    font-size: 2rem;
+    color: var(--white);
+}
 
-
+.footer .credit span{
+    color: var(--main-color);
+}
 /* FOOTER SECTION END */
 
 
@@ -192,4 +291,10 @@ section{
     html{
         font-size: 50%;
     }
+
+    /* SERVICES SECTION START */
+    .heading-title{
+        font-size: 3.5rem;
+    }
+    /* SERVICES SECTION END */
 }

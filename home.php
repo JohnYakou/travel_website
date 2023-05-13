@@ -29,6 +29,78 @@
     </section>
     <!-- HEADER SECTION END -->
 
+    <!-- HOME SECTION START -->
+    <section class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background:url(images/home-1.jpg) no-repeat">
+                    <div class="content">
+                        <span>explore, discover, travel</span>
+                        <h3>travel around the world</h3>
+                        <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background:url(images/home-2.jpg) no-repeat">
+                    <div class="content">
+                        <span>explore, discover, travel</span>
+                        <h3>discover new places</h3>
+                        <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background:url(images/home-3.jpg) no-repeat">
+                    <div class="content">
+                        <span>explore, discover, travel</span>
+                        <h3>make your tour worthwhile</h3>
+                        <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- HOME SECTION END -->
+
+    <!-- SERVICES SECTION START -->
+    <section class="services">
+        <h1 class="heading-title">our services</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/flaticon-mountain.png" alt="mountain icon">
+                <h3>adventure</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/flaticon-map.png" alt="map icon">
+                <h3>tour guide</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/flaticon-trekking.png" alt="trekking icon">
+                <h3>trekking</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/flaticon-fire.png" alt="fire icon">
+                <h3>camp fire</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/flaticon-off-road.png" alt="mountain icon">
+                <h3>off road</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/flaticon-camping.png" alt="camping icon">
+                <h3>camping</h3>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES SECTION END -->
 
 
     <!-- FOOTER SECTION START -->
@@ -66,6 +138,8 @@
                 <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
             </div>
         </div>
+
+        <div class="credit">created by <span>mr. john yakou</span> | all rights reserved</div>
     </section>
     <!-- FOOTER SECTION END -->
 

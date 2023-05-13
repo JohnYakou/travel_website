@@ -29,9 +29,9 @@
     </section>
     <!-- HEADER SECTION END -->
 
-    
-
-
+    <div class="heading">
+        <h1>about us</h1>
+    </div>
 
     <!-- FOOTER SECTION START -->
     <section class="footer">
@@ -68,6 +68,8 @@
                 <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
             </div>
         </div>
+
+        <div class="credit">created by <span>mr. john yakou</span> | all rights reserved</div>
     </section>
     <!-- FOOTER SECTION END -->
 
