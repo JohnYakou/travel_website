@@ -46,6 +46,21 @@ section{
     padding: 5rem 10%;
 }
 
+/* --- TEXT SLIDE ANIMATION IN HOME PAGE --- */
+@keyframes fadeIn{
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+}
+
+.heading-title{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
 .btn{
     display: inline-block;
     background: var(--black);
@@ -116,6 +131,11 @@ section{
 
 .home .slide .content{
     width: 85rem;
+    display: none;
+}
+
+.home .swiper-slide-active .content{
+    display: inline-block;
 }
 
 .home .slide .content span{
@@ -123,6 +143,7 @@ section{
     font-size: 2.2rem;
     color: var(--light-bg);
     padding-bottom: 1rem;
+    animation: fadeIn 0.4s linear backwards 0.2s;
 }
 
 .home .slide .content h3{
@@ -132,8 +153,39 @@ section{
     line-height: 1;
     text-shadow: var(--text-shadow);
     padding: 1rem 0;
+    animation: fadeIn 0.4s linear backwards 0.4s;
 }
 
+.home .slide .content .btn{
+    animation: fadeIn 0.4s linear backwards 0.6s;
+}
+
+.home .swiper-button-next,
+.home .swiper-button-prev{
+    top: inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+    height: 7rem;
+    width: 7rem;
+    background: var(--white);
+    color: var(--black);
+}
+
+.home .swiper-button-next:hover,
+.home .swiper-button-prev:hover{
+    background: var(--main-color);
+    color: var(--white);
+}
+
+.home .swiper-button-next::after,
+.home .swiper-button-prev::after{
+    font-size: 2rem;
+}
+
+.home .swiper-button-prev{
+    right: 7rem;
+}
 
 /* HOME SECTION END */
 
@@ -164,14 +216,116 @@ section{
     font-size: 1.7rem;
     padding-top: 1rem;
 }
-
-.heading-title{
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 6rem;
-    text-transform: uppercase;
-}
 /* SERVICES SECTION END */
+
+/* HOME ABOUT SECTION START */
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-about .image{
+    flex: 1 1 41rem;
+}
+
+.home-about .image img{
+    width: 100%;
+}
+
+.home-about .content{
+    flex: 1 1 41rem;
+    padding: 3rem;
+    background-color: var(--light-bg);
+}
+
+.home-about .content h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.home-about .content p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: var(--black);
+}
+/* HOME ABOUT SECTION END */
+
+/* HOME PACKAGE SECTION START */
+.home-packages{
+    background: var(--light-bg);
+}
+
+.home-packages .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.home-packages .box-container .box{
+    border: var(--border);
+    /* box-shadow: var(--box-shadow); */
+    background: var(--white);
+}
+
+.home-packages .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+}
+
+.home-packages .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s linear;
+}
+
+.home-packages .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.home-packages .box-container .box .content h3{
+    font-size: 2.5rem;
+}
+
+.home-packages .box-container .box .content p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.home-packages .load-more{
+    text-align: center;
+    margin-top: 2rem;
+}
+/* HOME PACKAGE SECTION END */
+
+/* HOME OFFER SECTION START */
+.home-offer{
+    text-align: center;
+}
+
+.home-offer .content{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.home-offer .content h3{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.home-offer .content p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+/* HOME OFFER SECTION END */
 
 /* FOOTER SECTION START */
 .footer{
@@ -249,6 +403,12 @@ section{
         padding: 3rem 2rem;
     }
     /* HEADER END */
+
+    /* HOME SECTION START */
+    .home .slide .content h3{
+        font-size: 10vw;
+    }
+    /* HOME SECTION END */
 }
 
 @media (max-width:768px){

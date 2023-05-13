@@ -102,6 +102,77 @@
     </section>
     <!-- SERVICES SECTION END -->
 
+    <!-- HOME ABOUT SECTION START -->
+    <section class="home-about">
+        <div class="image">
+            <img src="images/home-about.jpg" alt="home about">
+        </div>
+
+        <div class="content">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="about.php" class="btn">read more</a>
+        </div>
+    </section>
+    <!-- HOME ABOUT SECTION END -->
+
+    <!-- HOME PACKAGES SECTION START -->
+    <section class="home-packages">
+        <h1 class="heading-title">our packages</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/home-package-1.jpg" alt="taj mahal">
+                </div>
+
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/home-package-2.jpg" alt="rome colosseum">
+                </div>
+
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/home-package-3.jpg" alt="great wall of china">
+                </div>
+
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="load-more"><a href="package.php" class="btn">load more</a></div>
+    </section>
+    <!-- HOME PACKAGES SECTION END -->
+
+    <!-- HOME OFFER SECTION START -->
+    <section class="home-offer">
+        <div class="content">
+            <h3>upto 50% off</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque exercitationem ad sequi vero blanditiis quibusdam dolorum tempore similique consectetur ullam?</p>
+            <a href="book.php" class="btn">book now</a>
+        </div>
+    </section>
+
+
+    <!-- HOME OFFER SECTION END -->
 
     <!-- FOOTER SECTION START -->
     <section class="footer">
