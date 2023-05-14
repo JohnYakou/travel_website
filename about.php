@@ -62,11 +62,7 @@
             </div>
         </div>
     </section>
-
-
     <!-- ABOUT SECTION END -->
-
-
 
     <!-- FOOTER SECTION START -->
     <section class="footer">
